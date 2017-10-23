@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+
+        android:layout_column="0"
+        android:layout_marginTop="33dp"
+        android:layout_row="2"
+        android:src="@drawable/dolar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_centerHorizontal="true"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/sertifikasi"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/button15"
+        android:layout_below="@+id/imageView1" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:background="@color/colorAccent"
+        android:text="CEK SERTIFIKASI"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-1142409875326374/1016838445" />
+    </RelativeLayout>
+
+</RelativeLayout>

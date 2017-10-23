@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SIM PKB</string>
+    <string name="title_activity_sub">subActivity</string>
+    <string name="title_activity_profile">profile</string>
+    <string name="title_activity_nilai">nilai</string>
+    <string name="title_activity_latihan">latihan</string>
+    <string name="title_activity_hasil">hasil</string>
+    <string name="title_activity_web">web</string>
+    <string name="action_settings">about</string>
+    <string name="more">more aps</string>
+    <string name="about">"Thank's To:\n" \n" " Allah S.W.T \n" "My   Family\n" "Google.inc\n" "And\n" "all you have been using my application\n"
+    \n" "Copyright@2017\n" "PEMIKIR VERSI BARU\n"
+    </string>
+    <string name="sertifikasi">\n"\n"CARA CEK SERTIFIKASI:\n"\n" -PILIH MENU HOME\n"- geser ke kabawah sampai ketemu\n"LAYANAN INFO GTK \n" - pilih layanan INFO GTK\n"- SKTP / INFO GTK anda akan muncul\n" - apabila masih terdapat centang merah segera tanyakan kepada operator anda untuk diperbaiki \n" - anda bisa klik tombol dibawah ini untuk cek sertifikasi </string>
+    <string name="banner_ad_unit_id">ca-app-pub-1142409875326374/1016838445</string>
+    <string name="title_activity_website">website</string>
+</resources>

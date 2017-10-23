@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.simpkg.ukkggpo">
+
+    <uses-permission android:name="android.permission." />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.simpkg.ukkggpo.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.simpkg.ukkggpo.fragments.Home"
+            android:label="@string/title_activity_sub"
+            android:parentActivityName="com.simpkg.ukkggpo.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simpkg.ukkggpo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.simpkg.ukkggpo.fragments.profile"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName="com.simpkg.ukkggpo.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simpkg.ukkggpo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.simpkg.ukkggpo.fragments.nilai"
+            android:label="@string/title_activity_nilai"
+            android:parentActivityName="com.simpkg.ukkggpo.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simpkg.ukkggpo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.simpkg.ukkggpo.fragments.latihan"
+            android:label="@string/title_activity_latihan"
+            android:parentActivityName="com.simpkg.ukkggpo.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simpkg.ukkggpo.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.simpkg.ukkggpo.fragments.hasil"
+            android:label="@string/title_activity_hasil"
+            android:parentActivityName="com.simpkg.ukkggpo.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simpkg.ukkggpo.MainActivity" />
+        </activity>
+
+        <activity android:name="com.simpkg.ukkggpo.about" />
+        <activity
+            android:name="com.simpkg.ukkggpo.fragments.website"
+            android:label="@string/title_activity_website"
+            android:parentActivityName="com.simpkg.ukkggpo.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.simpkg.ukkggpo.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
